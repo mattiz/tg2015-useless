@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+SCRIPT_PATH="`dirname \"$0\"`"
 LINE_LENGTH=31
 
 
@@ -40,4 +42,4 @@ line4=`printf "%-${LINE_LENGTH}s" $line4`
 
 
 
-cat ../art/clippy.txt | sed -r "s/§a+§/$line1/g" | sed -r "s/§b+§/$line2/g" | sed -r "s/§c+§/$line3/g" | sed -r "s/§d+§/$line4/g"
+cat $SCRIPT_PATH/../art/clippy.txt | sed -r "s|§a+§|$line1|g" | sed -r "s|§b+§|$line2|g" | sed -r "s|§c+§|$line3|g" | sed -r "s|§d+§|$line4|g"
