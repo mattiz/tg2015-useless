@@ -1,0 +1,29 @@
+
+ _________________________________
+/                                 \
+| §aaaaaaaaaaaaaaaaaaaaaaaaaaaaa§ |
+| §bbbbbbbbbbbbbbbbbbbbbbbbbbbbb§ |
+| §ccccccccccccccccccccccccccccc§ |
+| §ddddddddddddddddddddddddddddd§ |
+|                                 |
+\_________________________________/
+               \ |
+                \|
+                   ___
+                  /   \
+                 /     \
+                /       \
+              ___       ___
+             /___\     /___\
+             \*__/     \*__/
+               |        |
+               | |      | |
+               | |      | |
+               | |      | |
+               |  \    /  |
+               |   \__/   |
+                \        /
+                 \      /
+                  \____/
+
+
