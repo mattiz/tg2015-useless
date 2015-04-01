@@ -7,7 +7,7 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]Clippy Bash\[
 
 
 command_not_found_handle () {
-	$SCRIPT_PATH/clippy.sh "Command not found: $1 Deal with it!";
+	$SCRIPT_PATH/clippy.sh "Whoopsy Daisy! There don't seem to be any command like: *$1*";
 }
 
 
@@ -37,7 +37,25 @@ function ls () {
 
 
 function rm () {
-	question "This is a really scary command. Are you sure you want to do it?" "/bin/rm $@"
+	question "This is so destructive. Wouldn't you prefer a nice game of chess?" "chess" "/bin/rm $@"
+}
+
+
+function chess () {
+	echo "║♜  ♞  ♝  ♛  ♚  ♝  ♞  ♜"
+	echo "║♟  ♟  ♟  ♟  ♟  ♟  ♟  ♟"
+	echo "║…  …  …  …  …  …  …  …"
+	echo "║…  …  …  …  …  …  …  …"
+	echo "║…  …  …  …  …  …  …  …"
+	echo "║…  …  ♘  …  …  …  …  …"
+	echo "║♙  ♙  ♙  ♙  ♙  ♙  ♙  ♙"
+	echo "║♖  …  ♗  ♕  ♔  ♗  ♘  ♖"
+	echo "╚══════════════════════"
+}
+
+
+function ps () {
+	say "It's rude to snoop in other peoples processes. I can't in good conscience let you do that."
 }
 
 
