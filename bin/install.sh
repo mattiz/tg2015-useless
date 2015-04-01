@@ -78,6 +78,11 @@ function cat () {
 }
 
 
+function sleep () {
+	say "Zzzzzzzz....."
+}
+
+
 alias cd='question "Dont get lost in the file system. Wouldent you rather go home?" "cd"'
 
 
