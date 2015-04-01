@@ -3,7 +3,7 @@
 SCRIPT_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 
-export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]Clippy Bash\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
+export PS1="\[$(tput bold)\]\[$(tput setaf 3)\]Clippy Bash\[$(tput setaf 7)\] $ \[$(tput sgr0)\]"
 
 
 command_not_found_handle () {
@@ -90,6 +90,11 @@ function kill () {
 
 function killall () {
 	question "Mass murder, ey? Enter Dahmer mode?" "/usr/bin/killall $@"
+}
+
+
+function tg () {
+	say "ARNE!"
 }
 
 
