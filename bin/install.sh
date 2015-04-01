@@ -83,6 +83,16 @@ function sleep () {
 }
 
 
+function kill () {
+	question "What's with all the violence? Are you sure you want to kill that innocent process?" "/bin/kill $@"
+}
+
+
+function killall () {
+	question "Mass murder, ey? Enter Dahmer mode?" "/usr/bin/killall $@"
+}
+
+
 alias cd='question "Dont get lost in the file system. Wouldent you rather go home?" "cd"'
 
 
