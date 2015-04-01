@@ -59,6 +59,25 @@ function ps () {
 }
 
 
+function ping () {
+	say "*PONG*"
+}
+
+
+function cat () {
+	echo ""
+	echo "  /\ ___ /\\"
+ 	echo " (  o   o  )"
+	echo "  \  >#<  /  meaw!"
+	echo "  /       \\"
+	echo " /         \\       ^"
+	echo "|           |     //"
+	echo " \         /    //"
+	echo "  ///  ///   --"
+	echo ""
+}
+
+
 alias cd='question "Dont get lost in the file system. Wouldent you rather go home?" "cd"'
 
 
