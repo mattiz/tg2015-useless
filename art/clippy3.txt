@@ -1,10 +1,10 @@
 
  _________________________________
 /                                 \
-| Hi, I am clippy, your bash      |
-| assistant. Would you like some  |
-| assiatance today?               |
-|                                 |
+| §aaaaaaaaaaaaaaaaaaaaaaaaaaaaa§ |
+| §bbbbbbbbbbbbbbbbbbbbbbbbbbbbb§ |
+| §ccccccccccccccccccccccccccccc§ |
+| §ddddddddddddddddddddddddddddd§ |
 |                                 |
 \_________________________________/
                \ |
@@ -13,9 +13,9 @@
                   /   \
                  /     \
                 /       \
-              ___       ___
-             /___\     /___\
-             \*__/     \*__/
+              ___       ___   *Wink*
+             /   \     /___\ /
+             \_*_/     \___/
                |        |
                | |      | |
                | |      | |

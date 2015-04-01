@@ -42,4 +42,5 @@ line4=`printf "%-${LINE_LENGTH}s" $line4`
 
 
 
-cat $SCRIPT_PATH/../art/clippy.txt | sed -r "s|§a+§|$line1|g" | sed -r "s|§b+§|$line2|g" | sed -r "s|§c+§|$line3|g" | sed -r "s|§d+§|$line4|g"
+
+cat $SCRIPT_PATH/../art/clippy$(( RANDOM % 6 )).txt | sed -r "s|§a+§|$line1|g" | sed -r "s|§b+§|$line2|g" | sed -r "s|§c+§|$line3|g" | sed -r "s|§d+§|$line4|g"
