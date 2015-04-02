@@ -89,16 +89,13 @@ function kill () {
 
 
 function killall () {
-	question "Mass murder, ey? Enter Dahmer mode?" "/usr/bin/killall $@"
+	question "Mass murder, ey? Entering Dahmer mode." "/usr/bin/killall $@"
 }
 
 
 function tg () {
 	say "ARNE!"
 }
-
-
-alias cd='question "Dont get lost in the file system. Wouldent you rather go home?" "cd"'
 
 
 function assistance () {
