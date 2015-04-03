@@ -1,6 +1,13 @@
 The Gathering 2015 useless contribution
 ----------------------------------------
 
+Authors:
+
+The MooG group
+Mathias Bjerke (mathbje@gmail.com)
+Øivind Skattum Vesteng (blazer.84@gmail.com)
+
+
 Install using:
 
 $ source bin/install.sh
